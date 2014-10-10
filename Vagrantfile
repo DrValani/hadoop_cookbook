@@ -13,7 +13,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.omnibus.chef_version = :latest
 
   # Enable berkshelf plugin
-  config.berkshelf.enabled = true
+  #config.berkshelf.enabled = true
 
   # Run Multi-Machine environment to test both OSs
   # http://docs.vagrantup.com/v2/multi-machine/index.html
